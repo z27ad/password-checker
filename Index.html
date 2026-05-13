@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Professional Password Checker</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3>Password Strength Checker</h3>
+
+            <input type="password" id="password" placeholder="Enter password">
+            
+            <div class="bar">
+                <div class="fill" id="fill"></div>
+            </div>
+
+            <div class="strength-text" id="strengthText"></div>
+
+            <div class="checklist">
+                <p id="length">✖ At least 8 characters</p>
+                <p id="upper">✖ Contains uppercase letter</p>
+                <p id="lower">✖ Contains lowercase letter</p>
+                <p id="number">✖ Contains number</p>
+                <p id="symbol">✖ Contains symbol</p>
+            </div>
+        </div>
+
+        <div class="SuggestPassword">
+            <h3>Suggest Password</h3>
+
+            <input type="text" id="SuggestPass">
+            <button id="Generate">Generate Password</button>
+        </div>
+
+        <script src="Script.js"></script>
+    </body>
+</html>
