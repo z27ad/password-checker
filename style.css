@@ -8,7 +8,6 @@ body {
     #353535
     );  
       
-    /* CENTERING */
     display: flex;
     flex-direction: column;
     justify-content: center;
